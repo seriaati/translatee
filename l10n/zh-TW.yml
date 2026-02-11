@@ -1,0 +1,11 @@
+set_lang_cmd_name: 設置語言
+set_lang_cmd_desc: 設定你的目標翻譯語言。
+set_lang_cmd_lang_name: 語言
+set_lang_cmd_lang_desc: 要設定為目標語言的語言
+translate_cmd_name: 翻譯
+translate_cmd_desc: 翻譯單字或句子。
+translate_cmd_text_name: 文字
+translate_cmd_target_lang_name: 目標語言
+translate_cmd_text_desc: 要翻譯的文字。
+translate_cmd_target_lang_desc: 翻譯的目標語言（預設為 /set-lang 設定）。
+translate_ctx_cmd_name: 翻譯

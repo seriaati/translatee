@@ -1,0 +1,11 @@
+set_lang_cmd_name: set-lang
+set_lang_cmd_desc: Set your target translation language.
+set_lang_cmd_lang_name: lang
+set_lang_cmd_lang_desc: The language to set as your target language
+translate_cmd_name: translate
+translate_cmd_desc: Translate a word or sentence.
+translate_cmd_text_name: text
+translate_cmd_target_lang_name: target-lang
+translate_cmd_text_desc: The text to translate.
+translate_cmd_target_lang_desc: The target language for the translation (defaults to /set-lang setting).
+translate_ctx_cmd_name: Translate

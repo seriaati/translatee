@@ -1,0 +1,25 @@
+[project]
+name = "translatee"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anyio>=4.12.1",
+    "deepl>=1.28.0",
+    "discord-py[speed]>=2.6.4",
+    "jishaku>=2.6.3",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "tortoise-orm>=1.0.0",
+]
+
+[tool.pyright]
+enableTypeIgnoreComments = false
+reportIncompatibleMethodOverride = false
+reportIncompatibleVariableOverride = false
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportUnnecessaryIsInstance = true
+reportUnnecessaryTypeIgnoreComment = true
+typeCheckingMode = "standard"
